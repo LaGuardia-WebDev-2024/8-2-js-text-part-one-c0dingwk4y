@@ -3,6 +3,7 @@ void setup(){
   size(600, 400); 
 }
 
+
 //🎯Variable Declarations Go Here
 
 
@@ -15,7 +16,21 @@ draw = function(){
   }
 
   //🎯New Text Code Should Go Here 🡻
-
+textSize(46);
+fill(255, 182, 193);
+text("Favorite foods", 100,110);
+textSize(35);
+fill(255,182,193);
+text("Goat roti", 60,190)
+textSize(35);
+textSize(35);
+fill(255,182,193);
+text("Soup joumou", 60,240)
+textSize(35);
+textSize(35);
+fill(255,182,193);
+text("Takis", 60,290)
+textSize(35);
 };
 
 //🟡Mouse Pressed Procedue - Runs When Mouse is Pressed on Canvas
